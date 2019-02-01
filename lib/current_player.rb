@@ -1,6 +1,6 @@
 
 def turn_count(array)
-  counter = nil
+  counter = 0
   array.each do |space|
     if (space != " " || space != "")
       counter +=1 
