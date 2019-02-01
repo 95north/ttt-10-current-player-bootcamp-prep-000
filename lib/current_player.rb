@@ -10,11 +10,14 @@ end
 
 
 
-def current_player
-  if ( (turn_count(board) % 2) == 0 )
+def current_player(array)
+  if ( (turn_count(array) % 2) == 0 )
     return "X"
   else
     return "O"
   end
-  
 end
+
+turn_count(board)
+current_player(board)
+
