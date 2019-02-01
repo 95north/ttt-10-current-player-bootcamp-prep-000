@@ -2,7 +2,8 @@
 def turn_count(array)
   counter = 0
   array.each do |space|
-    if (space != " " || space != "")
+    if (space == "O" || space == "X")
+    #if (space != " " || space != "")
       counter +=1 
     end
   end
