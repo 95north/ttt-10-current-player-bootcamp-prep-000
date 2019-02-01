@@ -5,6 +5,7 @@ def turn_count(array)
     if (space != " " || space != "")
       counter +=1 
     end
+  end
   return counter
 end
 
