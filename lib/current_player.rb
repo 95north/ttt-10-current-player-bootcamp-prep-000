@@ -19,6 +19,5 @@ def current_player(array)
   end
 end
 
-turn_count(board)
-current_player(board)
+
 
